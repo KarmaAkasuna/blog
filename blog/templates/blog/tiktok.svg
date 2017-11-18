@@ -1,0 +1,2097 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1700" height="900" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"> 
+  <!-- ==================================== -->
+<!--UHR-->
+    <circle cx="100" cy="100" r="60" fill="white" stroke="black" stroke-width="3" >
+        <animate attributeName="fill" begin="26.3" values="aqua; chartreuse; deeppink; yellow; blue; blueviolet; crimson; fuchsia; cyan " dur="1.5" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="156" cy="100" r="4" fill="black" />
+    <circle cx="100" cy="44" r="4" fill="black" />
+    <circle cx="100" cy="156" r="4" fill="black" />
+    <circle cx="46" cy="100" r="4" fill="black" />
+    <circle cx="100" cy="100" r="6" fill="black" />
+     <line id="unwichtig" x1="100" y1="100" x2="100" y2="70"
+        style="stroke:black; stroke-width:3px;" >
+        <animate attributeName="opacity" begin="25.5" from="1" to="0" dur="1s" repeatCount="1" fill="freeze" />
+    </line>
+    <line id="l1" x1="0" y1="-42" x2="0" y2="0"
+        style="stroke:black; stroke-width:2px;" >
+        <animate attributeName="opacity" begin="25.5" from="1" to="0" dur="1s" repeatCount="1" fill="freeze" />
+    </line>
+    <text x="90" y="35"
+          style="font-family:verdana; front-size:10px; front-weight:bold;">
+            12
+    </text>
+    <text x="164" y="104"
+          style="font-family:verdana; front-size:10px; front-weight:bold;">
+            3
+    </text>
+    <text x="95" y="176"
+          style="font-family:verdana; front-size:10px; front-weight:bold;">
+            6
+    </text>
+    <text x="26" y="104"
+          style="font-family:verdana; front-size:10px; front-weight:bold;">
+            9
+    </text>
+    
+    
+    
+ 
+<!-- Hier ist der rechte Pfad -->    
+<desc>cubic bezier curves - C und c</desc>
+  <defs>
+    <style type="text/css">
+    <![CDATA[
+      path {fill:none; stroke-width:2px;}
+    ]]>
+    </style>
+  </defs>
+<path d="M 100,55 
+            C 150,55 150,145 100,145 "/>
+    
+    
+<!-- Hier ist der linke Pfad -->    
+<desc>cubic bezier curves - C und c</desc>
+  <defs>
+    <style type="text/css">
+    <![CDATA[
+      path {fill:none; stroke-width:2px;}
+    ]]>
+    </style>
+  </defs>
+<path d="M 100,145 
+            C 50,145 50,55 100,55 "/>
+
+  
+    <!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="1" dur="2"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="3" dur="2"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="5" dur="2"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="7" dur="2"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+
+
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="9" dur="2"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="11" dur="2"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+
+
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="13" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="13.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="14" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="14.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="15" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="15.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="16" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="16.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="17" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="17.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="18" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="18.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="19" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="19.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="20" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="20.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="21" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="21.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+   
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="22" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="22.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="23" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="23.5" dur="0.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+    
+    
+<!-- Hier ist die Animation für die rechte Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="24" dur="0.7"
+    rotate="auto-reverse"
+    path="M 100,55 
+            C 150,55 150,145 100,145 "
+    fill="freeze"  />
+<!-- Hier ist die Animation für die linke Drehung -->  
+ <animateMotion xlink:href="#l1"
+    begin="24.7" dur="1.5"
+    rotate="auto-reverse"
+    path="M 100,145 
+            C 50,145 50,55 100,55 "
+    fill="freeze"  />
+<!--Bett-->
+<rect x="100" y="390" width="50" height="30" fill="aliceblue" rx="10">
+<animate attributeName="opacity" from="1" to="0" begin="6" dur="0.2" fill="freeze"/>
+</rect>
+<rect x="150" y="390" width="100" height="30" fill="red" rx="5">
+<animate attributeName="opacity" from="1" to="0" begin="6" dur="0.2" fill="freeze"/>
+</rect>
+<rect x="100" y="415" width="150" height="25" fill="saddlebrown">
+<animate attributeName="opacity" from="1" to="0" begin="6" dur="0.2" fill="freeze"/>
+</rect>
+<rect x="100" y="415" width="10" height="50" fill="saddlebrown">
+<animate attributeName="opacity" from="1" to="0" begin="6" dur="0.2" fill="freeze"/>
+</rect>
+<rect x="240" y="415" width="10" height="50" fill="saddlebrown">
+<animate attributeName="opacity" from="1" to="0" begin="6" dur="0.2" fill="freeze"/>
+</rect>
+<!--Person1(liegend)-->
+<rect x="105" y="370" width="40" height="45" fill="brown" rx="15" ry="15">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</rect>
+<circle cx="130" cy="385" r="20" fill="bisque">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</circle>
+<circle cx="114" cy="395" r="10" fill="brown">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</circle>
+<circle cx="114" cy="385" r="10" fill="brown">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</circle>
+<circle cx="125" cy="380" r="5" fill="dodgerblue">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</circle>
+<circle cx="125" cy="380" r="1" fill="black">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</circle>
+<circle cx="125" cy="380" r="5.2" fill="bisque">
+<animate attributeName="opacity" from="1" to="0" begin="1.5" dur="0.3" fill="freeze"/>
+</circle>
+<line x1="135" y1="390" x2="145" y2="375" stroke="black" stroke-width="2px">
+<animate attributeName="opacity" from="1" to="0" begin="2" dur="0.5" fill="freeze"/>
+</line>
+<!--Person2(stehend)-->
+<rect x="275" y="310" width="50" height="50" rx="15" ry="15" opacity="0" fill="brown">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="275" to="1275" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<circle cx="300" cy="335" r="20" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="300" to="1300" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="302.5" cy="305" r="10" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="302.5" to="1302.5" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="300" cy="342" r="10" fill="red" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="300" to="1300" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="300" cy="340" r="10" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="300" to="1300" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="290" cy="332" r="5" fill="dodgerblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="290" to="1290" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="310" cy="332" r="5" fill="dodgerblue" opacity="0">s
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="310" to="1310" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="290" cy="332" r="1" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="290" to="1290" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="310" cy="332" r="1" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="cx" from="310" to="1310" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<rect x="275" y="355" width="50" height="50" fill="bisque" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="275" to="1275" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<line x1="280" y1="360" x2="250" y2="340" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x1" from="280" to="1280" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="x2" from="250" to="1250" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</line>
+<line x1="320" y1="360" x2="350" y2="340" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x1" from="320" to="1320" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="x2" from="350" to="1350" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</line>
+<rect x="275" y="365" width="50" height="55" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="fill" from="black" to="yellow" dur="0.2" begin="14.4" fill="freeze"/>
+<animate attributeName="fill" from="yellow" to="red" dur="0.2" begin="14.6" fill="freeze"/>
+<animate attributeName="fill" from="red" to="orange" dur="0.2" begin="14.8" fill="freeze"/>
+<animate attributeName="fill" from="orange" to="blue" dur="0.2" begin="15" fill="freeze"/>
+<animate attributeName="fill" from="blue" to="firebrick" dur="0.2" begin="15.2" fill="freeze"/>
+<animate attributeName="fill" from="firebrick" to="deeppink" dur="0.2" begin="15.4" fill="freeze"/>
+<animate attributeName="fill" from="deeppink" to="coral" dur="0.2" begin="15.6" fill="freeze"/>
+<animate attributeName="fill" from="coral" to="chartreuse" dur="0.2" begin="15.8" fill="freeze"/>
+<animate attributeName="fill" from="chartreuse" to="black" dur="0.2" begin="16" fill="freeze"/>
+<animate attributeName="x" from="275" to="1275" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<line x1="285" y1="355" x2="285" y2="375" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="stroke" from="black" to="yellow" dur="0.2" begin="14.4" fill="freeze"/>
+<animate attributeName="stroke" from="yellow" to="red" dur="0.2" begin="14.6" fill="freeze"/>
+<animate attributeName="stroke" from="red" to="orange" dur="0.2" begin="14.8" fill="freeze"/>
+<animate attributeName="stroke" from="orange" to="blue" dur="0.2" begin="15" fill="freeze"/>
+<animate attributeName="stroke" from="blue" to="firebrick" dur="0.2" begin="15.2" fill="freeze"/>
+<animate attributeName="stroke" from="firebrick" to="deeppink" dur="0.2" begin="15.4" fill="freeze"/>
+<animate attributeName="stroke" from="deeppink" to="coral" dur="0.2" begin="15.6" fill="freeze"/>
+<animate attributeName="stroke" from="coral" to="chartreuse" dur="0.2" begin="15.8" fill="freeze"/>
+<animate attributeName="stroke" from="chartreuse" to="black" dur="0.2" begin="16" fill="freeze"/>
+<animate attributeName="x1" from="285" to="1285" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="x2" from="285" to="1285" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</line>
+<line x1="315" y1="355" x2="315" y2="375" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="stroke" from="black" to="yellow" dur="0.2" begin="14.4" fill="freeze"/>
+<animate attributeName="stroke" from="yellow" to="red" dur="0.2" begin="14.6" fill="freeze"/>
+<animate attributeName="stroke" from="red" to="orange" dur="0.2" begin="14.8" fill="freeze"/>
+<animate attributeName="stroke" from="orange" to="blue" dur="0.2" begin="15" fill="freeze"/>
+<animate attributeName="stroke" from="blue" to="firebrick" dur="0.2" begin="15.2" fill="freeze"/>
+<animate attributeName="stroke" from="firebrick" to="deeppink" dur="0.2" begin="15.4" fill="freeze"/>
+<animate attributeName="stroke" from="deeppink" to="coral" dur="0.2" begin="15.6" fill="freeze"/>
+<animate attributeName="stroke" from="coral" to="chartreuse" dur="0.2" begin="15.8" fill="freeze"/>
+<animate attributeName="stroke" from="chartreuse" to="black" dur="0.2" begin="16" fill="freeze"/>
+<animate attributeName="x1" from="315" to="1315" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="x2" from="315" to="1315" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</line>
+<rect x="275" y="445" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="275" to="1275" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<rect x="310" y="445" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="310" to="1310" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<rect x="275" y="420" width="15" height="35" fill="lightskyblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="275" to="1275" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<rect x="310" y="420" width="15" height="35" fill="lightskyblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="2" dur="0.5" fill="freeze"/>
+<animate attributeName="x" from="310" to="1310" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<!--Bottle of Jack-->
+<rect x="240" y="330" width="20" height="30" fill="brown" stroke="black" stroke-width="1px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="10" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="241" y="330" width="18" height="5" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="height" from="5" to="29" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="10" dur="0.1" fill="freeze"/>
+</rect>
+<circle cx="242" cy="335" r="1" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+</circle>
+<circle cx="244" cy="335" r="1" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="246" cy="335" r="1" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="248" cy="335" r="1" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="250" cy="335" r="1" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="252" cy="335" r="1" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="254" cy="335" r="1" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="256" cy="335" r="1" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<circle cx="258" cy="335" r="1" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="cy" from="335" to="360" begin="7" dur="3" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="9.5" dur="0.1" fill="freeze"/>
+
+</circle>
+<text x="242" y="340" opacity="0"
+style="font-family:verdana; font-size:2px; font-weight:bold; fill:brown;">
+JACK DANIELS
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="10" dur="0.1" fill="freeze"/>
+</text>
+<rect x="246.25" y="319.5" width="7.5" height="10.5" fill="white" stroke="black" stroke-width="1px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="6" dur="0.1" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="10" dur="0.1" fill="freeze"/>
+</rect>
+<!--Großes Rechteck-->
+<rect x="0" y="0" width="1700" height="900" fill="black" opacity="1">
+<animate attributeName="opacity" from="1" to="0" dur="1" fill="freeze"/>
+<animate attributeName="fill" from="black" to="green" dur="0.1" begin="2.5" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="0.3" dur="0.1" begin="3" fill="freeze"/>
+<animate attributeName="fill" from="green" to="yellow" dur="0.1" begin="3.1" fill="freeze"/>
+<animate attributeName="fill" from="yellow" to="red" dur="0.1" begin="3.2" fill="freeze"/>
+<animate attributeName="fill" from="red" to="orange" dur="0.1" begin="3.3" fill="freeze"/>
+<animate attributeName="opacity" from="0.3" to="0" dur="0.1" begin="3.4" fill="freeze"/>
+</rect>
+<!--Sonnenbrille-->
+<line x1="280" y1="326" x2="320" y2="326" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="3.5" dur="0.1" fill="freeze"/>
+<animate attributeName="x1" from="280" to="1280" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="x2" from="320" to="1320" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</line>
+<rect x="284.5" y="326" width="14.5" height="12" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="3.5" dur="0.1" fill="freeze"/>
+<animate attributeName="x" from="284.5" to="1284.5" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<rect x="300" y="326" width="14.5" height="12" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="3.5" dur="0.1" fill="freeze"/>
+<animate attributeName="x" from="300" to="1300" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<!--Handy-->
+<!--<rect x="340" y="330" width="15" height="25" fill="grey">
+</rect>-->
+<rect x="340" y="330" width="5" height="2" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="335" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="330" to="325" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="345" y="330" width="5" height="2" fill="grey" opacity="0">
+<animate attributeName="y" from="330" to="320" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="350" y="330" width="5" height="2" fill="grey" opacity="0">
+<animate attributeName="x" from="350" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="340" y="332" width="2" height="4" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="330" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="340" y="336" width="2" height="5" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="335" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="336" to="340" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="340" y="341" width="2" height="5" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="337" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="341" to="347" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="340" y="346" width="2" height="7" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="337" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="346" to="357" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="340" y="353" width="5" height="2" fill="grey" opacity="0">
+<animate attributeName="x" from="340" to="337" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="351" to="359" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="345" y="353" width="3" height="2" fill="grey" opacity="0">
+<animate attributeName="x" from="345" to="348" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="353" to="361" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348" y="353" width="7" height="2" fill="grey" opacity="0">
+<animate attributeName="x" from="348" to="352" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="353" to="357" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="353" y="348" width="2" height="6" fill="grey" opacity="0">
+<animate attributeName="x" from="353" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="348" to="350" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="353" y="345" width="2" height="3" fill="grey" opacity="0">
+<animate attributeName="x" from="353" to="362" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="345" to="340" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="353" y="330" width="2" height="5" fill="grey" opacity="0">
+<animate attributeName="x" from="353" to="367" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="340" to="334" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="353" y="335" width="2" height="5" fill="grey" opacity="0">
+<animate attributeName="x" from="353" to="370" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="335" to="340" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="353" y="340" width="2" height="6" fill="grey" opacity="0">
+<animate attributeName="x" from="353" to="362" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="340" to="332" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<!--<rect x="342.5" y="332.5" width="10" height="20" fill="white">
+</rect>-->
+<rect x="342.5" y="332.5" width="2" height="6" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="332" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="332.5" to="330" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="344.5" y="332.5" width="4" height="3" fill="lightblue" opacity="0">
+<animate attributeName="x" from="344.5" to="362" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="332.5" to="339" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348.5" y="332.5" width="4" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="348.5" to="342" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="332.5" to="324" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="344.5" y="335.5" width="3" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="344.5" to="342" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="332.5" to="317" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="347.5" y="335.5" width="1" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="347.5" to="352" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="335.5" to="316" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348.5" y="335.5" width="4" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="348.5" to="356" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="335.5" to="315" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348.5" y="337.5" width="4" height="3" fill="lightblue" opacity="0">
+<animate attributeName="x" from="348.5" to="358" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="337.5" to="313" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="342.5" y="335.5" width="4" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="332" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="335.5" to="323" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="345.5" y="336.5" width="3" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="345.5" to="330" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="336.5" to="321" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="342.5" y="338.5" width="2" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="330" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="338.5" to="316" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="344.5" y="340.5" width="4" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="344.5" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="340.5" to="343" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348.5" y="340.5" width="4" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="348.5" to="362" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="341.5" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="342.5" y="343.5" width="3" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="340" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="344.5" to="362" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="344.5" y="342.5" width="5" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="344.5" to="350" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="342.5" to="359" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="348.5" y="342.5" width="4" height="3" fill="lightblue" opacity="0">
+<animate attributeName="x" from="348.5" to="348" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="342.5" to="358" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="342.5" y="343.5" width="4" height="3" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="336" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="343.5" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="345.5" y="344.5" width="2" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="345.5" to="338" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="344.5" to="361" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="347.5" y="345.5" width="4" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="347.5" to="340" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="345.5" to="363" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="342.5" y="347.5" width="3" height="5" fill="lightblue" opacity="0">
+<animate attributeName="x" from="342.5" to="349" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="347.5" to="364" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="345.5" y="346.5" width="4" height="3" fill="lightblue" opacity="0">
+<animate attributeName="x" from="345.5" to="346" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="346.5" to="367" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="349.5" y="342.5" width="3" height="6" fill="lightblue" opacity="0">
+<animate attributeName="x" from="349.5" to="335" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="342.5" to="365" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+</rect>
+<rect x="345.5" y="348.5" width="2" height="4" fill="lightblue" opacity="0">
+<animate attributeName="x" from="345.5" to="350" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="348.5" to="363" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="347.5" y="348.5" width="5" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="347.5" to="350" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="348.5" to="363" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="347.5" y="350.5" width="2" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="347.5" to="350" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="350.5" to="363" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="349.5" y="350.5" width="3" height="2" fill="lightblue" opacity="0">
+<animate attributeName="x" from="349.5" to="356" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="y" from="350.5" to="370" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<rect x="346" y="352.5" width="2" height="2" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="y" from="352.5" to="360" begin="17" dur="0.05" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" dur="0.3" begin="17.1" fill="freeze"/>
+<animate attributeName="opacity" from="0" to="1" begin="15" dur="0.1" fill="freeze"/>
+</rect>
+<!--Bunte Kreise-->
+<circle cx="350" cy="100" r="20" fill="chartreuse" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.2" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="400" cy="150" r="20" fill="yellow" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.1" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.3" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="300" cy="50" r="20" fill="deeppink" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.2" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.4" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="200" cy="200" r="20" fill="royalblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.3" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.5" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="150" cy="250" r="20" fill="turquoise" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.4" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.6" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="450" cy="300" r="20" fill="coral" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.5" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.7" dur="0.2" fill="freeze"/>
+</circle>
+<circle cx="270" cy="270" r="20" fill="darkorange" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="13.6" dur="0.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="13.8" dur="0.2" fill="freeze"/>
+</circle>
+<!--Auto-->
+<rect x="180" y="400" width="270" height="70" fill="darkred" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="x" from="180" to="1180" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<rect x="320" y="320" width="100" height="80" fill="darkred" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="x" from="320" to="1320" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</rect>
+<polygon fill="darkred" opacity="0" points="420 320, 420 400, 450 400">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="points" from="420 320, 420 400, 450 400" to="1420 320, 1420 400, 1450 400" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</polygon>
+<circle cx="230" cy="470" r="30" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="cx" from="230" to="1230" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="230" cy="470" r="20" fill="grey" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="cx" from="230" to="1230" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="400" cy="470" r="30" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="cx" from="400" to="1400" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<circle cx="400" cy="470" r="20" fill="grey" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="17.5" dur="0.1" fill="freeze"/>
+<animate attributeName="cx" from="400" to="1400" begin="17.6" dur="6.2" fill="freeze"/>
+<animate attributeName="opacity" from="1" to="0" begin="24" dur="1.5" fill="freeze"/>
+</circle>
+<!--Schattenmensch1-->
+<circle cx="300" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.5" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="287.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="290" y1="320" x2="275" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.5" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="307.5" y1="320" x2="322.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.5" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="287.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="305" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch2-->
+<circle cx="375" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="362.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="365" y1="340" x2="350" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="382.5" y1="340" x2="397.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="362.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="380" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch3-->
+<circle cx="450" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.6" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="437.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="440" y1="320" x2="425" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.6" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.6" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="457.5" y1="320" x2="472.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.6" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.6" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="437.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="455" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch4-->
+<circle cx="525" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28.9" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="512.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28.9" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="515" y1="340" x2="500" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.9" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.9" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="532.5" y1="340" x2="547.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.9" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.9" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="512.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.9" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="530" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.9" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch5-->
+<circle cx="600" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.4" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="587.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.4" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="590" y1="320" x2="575" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.4" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.4" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="607.5" y1="320" x2="622.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.4" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.4" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="587.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.4" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="605" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.4" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch6-->
+<circle cx="675" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="27.5" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="662.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="27.5" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="665" y1="340" x2="650" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="27.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="27.5" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="682.5" y1="340" x2="697.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="27.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="27.5" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="662.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="27.5" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="680" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="27.5" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch7-->
+<circle cx="750" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.8" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="737.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.8" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="740" y1="320" x2="725" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.8" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.8" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="757.5" y1="320" x2="772.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.8" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.8" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="737.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.8" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="755" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.8" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch8-->
+<circle cx="825" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28.1" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="812.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28.1" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="815" y1="340" x2="800" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.1" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.1" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="832.5" y1="340" x2="847.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.1" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.1" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="812.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.1" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="830" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.1" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch9-->
+<circle cx="900" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.2" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="887.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="890" y1="320" x2="875" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.2" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.2" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="907.5" y1="320" x2="922.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.2" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.2" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="887.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="905" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch10-->
+<circle cx="975" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28.7" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="962.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28.7" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="965" y1="340" x2="950" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.7" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.7" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="982.5" y1="340" x2="997.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.7" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.7" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="962.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.7" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="980" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.7" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch11-->
+<circle cx="1050" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="1037.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="1040" y1="320" x2="1025" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="1057.5" y1="320" x2="1072.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="1037.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="1055" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch12-->
+<circle cx="1125" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28.2" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="1112.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="1115" y1="340" x2="1100" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.2" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.2" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="1132.5" y1="340" x2="1147.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.2" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.2" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="1112.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="1130" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.2" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch13-->
+<circle cx="1200" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.5" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="1187.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="1190" y1="320" x2="1175" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.5" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="1207.5" y1="320" x2="1222.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.5" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.5" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="1187.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="1205" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.5" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch14-->
+<circle cx="1275" cy="325" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="325;305;325" begin="28.6" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="1262.5" y="335" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="335;315;335" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="1265" y1="340" x2="1250" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.6" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.6" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="1282.5" y1="340" x2="1297.5" y2="330" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="330" to="350" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="340;320;340" begin="28.6" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="330;310;330" begin="28.6" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="1262.5" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="1280" y="360" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="360;340;360" begin="28.6" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Schattenmensch15-->
+<circle cx="1350" cy="305" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="305;285;305" begin="28.3" dur="0.4" repeatCount="100"/>
+</circle>
+<rect x="1337.5" y="315" width="25" height="30" fill="black" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="315;295;315" begin="28.3" dur="0.4" repeatCount="100"/>
+</rect>
+<line x1="1340" y1="320" x2="1325" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.3" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.3" dur="0.4" repeatCount="100"/>
+</line>
+<line x1="1357.5" y1="320" x2="1372.5" y2="310" stroke="black" stroke-width="5px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y2" from="310" to="330" begin="27" dur="0.2" fill="freeze"/>
+<animate attributeName="y1" values="320;300;320" begin="28.3" dur="0.4" repeatCount="100"/>
+<animate attributeName="y2" values="310;290;310" begin="28.3" dur="0.4" repeatCount="100"/>
+</line>
+<rect x="1337.5" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.3" dur="0.4" repeatCount="100"/>
+</rect>
+<rect x="1355" y="340" width="7.5" height="25" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="340;320;340" begin="28.3" dur="0.4" repeatCount="100"/>
+</rect>
+<!--Scheinwerfer-->
+<polygon fill="black" points="170 170, 210 150, 300 220, 190 300" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+</polygon>
+<polygon fill="black" points="1600 140, 1640 155, 1610 280, 1490 220" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+</polygon>
+<polygon fill="darkmagenta" points="300 220, 190 300, 300 900, 1200 900" opacity="0">
+<animate attributeName="fill" values="darkmagenta;crimson;darkorange;blueviolet;aqua" begin="26.5" dur="0.4" repeatCount="indefinite"/>
+<animate attributeName="opacity" from="0" to="0.4" begin="26" dur="0.5" fill="freeze"/>
+</polygon>
+<polygon fill="darkmagenta" points="1610 280, 1490 220, 500 900, 1480 900" opacity="0">
+<animate  attributeName="fill" values="darkkhaki;deepskyblue;darkmagenta;deepseagreen;deeppink" begin="0.4" dur="0.4" repeatCount="indefinite"/>
+<animate attributeName="opacity" from="0" to="0.4" begin="26" dur="0.5" fill="freeze"/>
+</polygon>
+<!--Lautsprecher-->
+<rect x="150" y="550" width="170" height="500" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.8" begin="26" dur="0.5s" fill="freeze" />
+</rect>    
+<circle cx="235" cy="630" r="60" fill="darkgrey" opacity="0" >
+            <animate attributeName="r" from="60" to="64" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="630" r="40" fill="goldenrod" opacity="0"> 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="630" r="35" fill="dimgrey" opacity="0" >
+            <animate attributeName="r" from="35" to="39" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="630" r="10" fill="black" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="780" r="60" fill="darkgrey" opacity="0" >
+            <animate attributeName="r" from="60" to="64" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="780" r="40" fill="goldenrod" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="780" r="35" fill="dimgrey" opacity="0" >
+            <animate attributeName="r" from="35" to="39" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="235" cy="780" r="10" fill="black" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+    
+
+    
+<rect x="1380" y="550" width="170" height="500" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.8" begin="26" dur="0.5s" fill="freeze" />
+</rect>    
+<circle cx="1465" cy="630" r="60" fill="darkgrey" opacity="0" >
+            <animate attributeName="r" from="60" to="64" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="630" r="40" fill="goldenrod" opacity="0"> 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="630" r="35" fill="dimgrey" opacity="0" >
+            <animate attributeName="r" from="35" to="39" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="630" r="10" fill="black" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="780" r="60" fill="darkgrey" opacity="0" >
+            <animate attributeName="r" from="60" to="64" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="780" r="40" fill="goldenrod" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="780" r="35" fill="dimgrey" opacity="0" >
+            <animate attributeName="r" from="35" to="39" begin="26.5" dur="0.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+<circle cx="1465" cy="780" r="10" fill="black" opacity="0" > 
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5s" fill="freeze" />
+</circle>
+ <!--Partymensch1-->
+<rect x="475" y="610" width="50" height="50" rx="15" ry="15" opacity="0" fill="yellow">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="610;560;610" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<circle cx="500" cy="635" r="20" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="635;585;635" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="515" cy="605" r="10" fill="yellow" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="605;555;605" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="515" cy="605" r="5" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="605;555;605" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="485" cy="605" r="10" fill="yellow" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="605;555;605" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="485" cy="605" r="5" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="605;555;605" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="500" cy="642" r="10" fill="red" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="642;592;642" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="500" cy="640" r="10" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="640;590;640" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="490" cy="632" r="5" fill="lightgrey" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="510" cy="632" r="5" fill="lightgrey" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="490" cy="632" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="510" cy="632" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.7" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="475" y="655" width="50" height="50" fill="bisque" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="655;605;655" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="480" y1="660" x2="450" y2="640" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="660;610;660" begin="27.7" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="640;590;640" begin="27.7" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="520" y1="660" x2="550" y2="640" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="660;610;660" begin="27.7" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="640;590;640" begin="27.7" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="475" y="665" width="50" height="55" fill="crimson" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="665;615;665" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="485" y1="655" x2="485" y2="675" stroke="crimson" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="655;605;655" begin="27.7" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="675;625;675" begin="27.7" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="515" y1="655" x2="515" y2="675" stroke="crimson" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="655;605;655" begin="27.7" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="675;625;675" begin="27.7" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="475" y="745" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="745;695;745" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="510" y="745" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="745;695;745" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="475" y="720" width="15" height="35" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="720;670;720" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="510" y="720" width="15" height="35" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="720;670;720" begin="27.7" dur="0.6" repeatCount="100"/>
+</rect>
+<!--Partymensch2-->
+<circle cx="655" cy="655" r="10" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="655;605;655" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="659" cy="659" r="5" fill="white" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="659;609;659" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="615" y="660" width="50" height="50" rx="15" ry="15" opacity="0" fill="black">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="660;610;660" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<circle cx="640" cy="685" r="20" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="685;635;685" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="640" cy="692" r="10" fill="red" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="692;642;692" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="640" cy="690" r="10" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="630" cy="682" r="5" fill="cadetblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="650" cy="682" r="5" fill="cadetblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="630" cy="682" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="650" cy="682" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="615" y="705" width="50" height="50" fill="burlywood" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="705;655;705" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="620" y1="710" x2="590" y2="690" stroke="burlywood" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="710;660;710" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="660" y1="710" x2="690" y2="690" stroke="burlywood" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="710;660;710" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="615" y="715" width="50" height="55" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="715;665;715" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="625" y1="705" x2="625" y2="725" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="705;655;705" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="725;675;725" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="655" y1="705" x2="655" y2="725" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="705;655;705" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="725;675;725" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="615" y="805" width="15" height="15" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="805;755;805" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="650" y="805" width="15" height="15" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="805;755;805" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="615" y="770" width="15" height="35" fill="chartreuse" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="770;720;770" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="650" y="770" width="15" height="35" fill="chartreuse" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="770;720;770" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<!--Kesha-->
+<rect x="915" y="610" width="50" height="50" rx="15" ry="15" opacity="0" fill="brown">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="610;560;610" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<circle cx="940" cy="635" r="20" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="635;585;635" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="932.5" cy="605" r="10" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="605;555;605" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="940" cy="642" r="10" fill="red" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="642;592;642" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="940" cy="640" r="10" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="640;590;640" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="930" cy="632" r="5" fill="dodgerblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="950" cy="632" r="5" fill="dodgerblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="930" cy="632" r="1" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="950" cy="632" r="1" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="632;582;632" begin="27.9" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="915" y="655" width="50" height="50" fill="bisque" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="655;605;655" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="920" y1="660" x2="890" y2="640" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="660;610;660" begin="27.9" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="640;590;640" begin="27.9" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="960" y1="660" x2="990" y2="640" stroke="bisque" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="660;610;660" begin="27.9" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="640;590;640" begin="27.9" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="915" y="665" width="50" height="55" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="665;615;665" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="925" y1="655" x2="925" y2="675" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="655;605;655" begin="27.9" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="675;625;675" begin="27.9" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="955" y1="655" x2="955" y2="675" stroke="black" stroke-width="2px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="655;605;655" begin="27.9" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="675;625;675" begin="27.9" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="915" y="745" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="745;695;745" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="950" y="745" width="15" height="25" fill="bisque" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="745;695;745" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="915" y="720" width="15" height="35" fill="lightskyblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="720;670;720" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="950" y="720" width="15" height="35" fill="lightskyblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="720;670;720" begin="27.9" dur="0.6" repeatCount="100"/>
+</rect>
+<!-- Titel und Konfetti -->
+<text x="800" y="180"
+style="font-family:courier; font-size:40px; font-weight:bold;" opacity="0">
+    TikTok by Ke＄ha
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="2" fill="freeze"/>
+    <animate attributeName="opacity" from="1" to="0" dur="2s" begin="5" fill="freeze"/>
+</text>
+
+<circle cx="700" cy="170" r="5" fill="aqua">
+    <animate attributeName="cx" from="700" to="790" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="yellow">
+    <animate attributeName="cx" from="700" to="820" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="200" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>    
+<circle cx="700" cy="170" r="5" fill="red">
+    <animate attributeName="cx" from="700" to="960" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="170" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>  
+<circle cx="700" cy="170" r="5" fill="greenyellow">
+    <animate attributeName="cx" from="700" to="1000" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="150" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>     
+<circle cx="700" cy="170" r="5" fill="green">
+    <animate attributeName="cx" from="700" to="1200" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="164" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="blue">
+    <animate attributeName="cx" from="700" to="1020" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="184" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="blueviolet">
+    <animate attributeName="cx" from="700" to="1140" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="149" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="orange">
+    <animate attributeName="cx" from="700" to="830" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="189" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="lawngreen">
+    <animate attributeName="cx" from="700" to="1040" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="173" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="lightcoral">
+    <animate attributeName="cx" from="700" to="916" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="191" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="palegreen">
+    <animate attributeName="cx" from="700" to="1220" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="150" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="olive">
+    <animate attributeName="cx" from="700" to="989" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="165" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkcyan">
+    <animate attributeName="cx" from="700" to="790" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="155" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="firebrick">
+    <animate attributeName="cx" from="700" to="1100" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="188" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="wheat">
+    <animate attributeName="cx" from="700" to="1145" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="139" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="violet">
+    <animate attributeName="cx" from="700" to="1006" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="190" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="coral">
+    <animate attributeName="cx" from="700" to="1070" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="160" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="hotpink">
+    <animate attributeName="cx" from="700" to="1210" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="200" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="skyblue">
+    <animate attributeName="cx" from="700" to="930" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="129" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="peru">
+    <animate attributeName="cx" from="700" to="780" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="119" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="navy">
+    <animate attributeName="cx" from="700" to="799" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="196" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="thistle">
+    <animate attributeName="cx" from="700" to="720" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="160" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="yellow">
+    <animate attributeName="cx" from="700" to="801" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="189" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="navajowhite">
+    <animate attributeName="cx" from="700" to="900" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="142" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="seagreen">
+    <animate attributeName="cx" from="700" to="850" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="150" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="crimson">
+    <animate attributeName="cx" from="700" to="749" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="199" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="orchid">
+    <animate attributeName="cx" from="700" to="1100" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="131" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="gold">
+    <animate attributeName="cx" from="700" to="1140" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="205" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="teal">
+    <animate attributeName="cx" from="700" to="1170" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="179" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="tomato">
+    <animate attributeName="cx" from="700" to="1190" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="199" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="magenta">
+    <animate attributeName="cx" from="700" to="1040" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="160" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="palegreen">
+    <animate attributeName="cx" from="700" to="1007" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="210" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="lightblue">
+    <animate attributeName="cx" from="700" to="940" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="149" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="indigo">
+    <animate attributeName="cx" from="700" to="983" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="207" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkolivegreen">
+    <animate attributeName="cx" from="700" to="956" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="134" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="skyblue">
+    <animate attributeName="cx" from="700" to="1187" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="172" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkgoldenrod">
+    <animate attributeName="cx" from="700" to="1206" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="147" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="chartreuse">
+    <animate attributeName="cx" from="700" to="1010" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="127" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="paleturquoise">
+    <animate attributeName="cx" from="700" to="810" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="137" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="lightcoral">
+    <animate attributeName="cx" from="700" to="824" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="157" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="aquamarine">
+    <animate attributeName="cx" from="700" to="885" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="115" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="rebeccapurple">
+    <animate attributeName="cx" from="700" to="1111" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="213" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="brown">
+    <animate attributeName="cx" from="700" to="903" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="186" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="mediumblue">
+    <animate attributeName="cx" from="700" to="862" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="148" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="springgreen">
+    <animate attributeName="cx" from="700" to="1109" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="178" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkkhaki">
+    <animate attributeName="cx" from="700" to="808" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="129" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="dodgerblue">
+    <animate attributeName="cx" from="700" to="1193" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="130" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="chartreuse">
+    <animate attributeName="cx" from="700" to="850" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="230" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="dimgray">
+    <animate attributeName="cx" from="700" to="1160" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="107" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkred">
+    <animate attributeName="cx" from="700" to="1005" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="186" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="darkblue">
+    <animate attributeName="cx" from="700" to="1205" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="184" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="cadetblue">
+    <animate attributeName="cx" from="700" to="1078" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="153" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="khaki">
+    <animate attributeName="cx" from="700" to="967" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="140" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="palevioletred">
+    <animate attributeName="cx" from="700" to="970" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="175" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="thistle">
+    <animate attributeName="cx" from="700" to="873" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="161" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="forestgreen">
+    <animate attributeName="cx" from="700" to="882" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="211" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="greenyellow">
+    <animate attributeName="cx" from="700" to="799" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="120" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="chartreuse">
+    <animate attributeName="cx" from="700" to="1203" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="117" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="salmon">
+    <animate attributeName="cx" from="700" to="1186" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="149" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="peru">
+    <animate attributeName="cx" from="700" to="880" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="200" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+<circle cx="700" cy="170" r="5" fill="fuchsia">
+    <animate attributeName="cx" from="700" to="1199" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="cy" from="170" to="208" dur="0.1" fill="freeze" begin="1"/> 
+    <animate attributeName="opacity" from="1" to="0" dur="1" begin="2" fill="freeze" />
+</circle>
+
+<ellipse cx="700" cy="170" rx="40" ry="25"
+    style="fill:red">
+    <animate attributeName="opacity" from="1" to="0" dur="2s" begin="5" fill="freeze" />
+</ellipse>
+<!--Mann-->
+<circle cx="1240" cy="685" r="20" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="685;635;685" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1240" cy="692" r="10" fill="brown" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="692;642;692" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1240" cy="690" r="10" fill="burlywood" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="1229" y="690" width="22" height="5" fill="burlywood" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+    <animate attributeName="y" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<circle cx="1230" cy="682" r="5" fill="cadetblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1250" cy="682" r="5" fill="cadetblue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1230" cy="682" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1250" cy="682" r="1.5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="682;632;682" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="1215" y="705" width="50" height="50" fill="burlywood" rx="5" ry="5" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="705;655;705" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<line x1="1220" y1="710" x2="1190" y2="690" stroke="burlywood" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="710;660;710" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<line x1="1260" y1="710" x2="1290" y2="690" stroke="burlywood" stroke-width="10px" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y1" values="710;660;710" begin="28.1" dur="0.6" repeatCount="100"/>
+<animate attributeName="y2" values="690;640;690" begin="28.1" dur="0.6" repeatCount="100"/>
+</line>
+<rect x="1215" y="705" width="50" height="58" fill="oldlace" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="705;655;705" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<polygon fill="burlywood" points="1230,705 1250,705 1240,720" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="points" values="1230,705 1250,705 1240,720; 1230,655 1250,655 1240,670; 1230,705 1250,705 1240,720" begin="28.1" dur="0.6" repeatCount="100"/>
+</polygon>
+         
+<rect x="1215" y="805" width="15" height="15" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="805;755;805" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="1250" y="805" width="15" height="15" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="805;755;805" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="1215" y="770" width="15" height="35" fill="blue" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="770;720;770" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="1250" y="770" width="15" height="35" fill="blue"     opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="770;720;770" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>
+<rect x="1215" y="763" width="50" height="7" fill="blue"     opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="y" values="763;713;763" begin="28.1" dur="0.6" repeatCount="100"/>
+</rect>  
+    
+<circle cx="1255" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1250" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1245" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1240" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1235" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1230" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<circle cx="1225" cy="670" r="5" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="26" dur="0.5" fill="freeze"/>
+<animate attributeName="cy" values="670;620;670" begin="28.1" dur="0.6" repeatCount="100"/>
+</circle>
+<rect x="0" y="0" width="1700" height="900" fill="black" opacity="0">
+<animate attributeName="opacity" from="0" to="1" begin="51" dur="1" fill="freeze"/>
+</rect>
+<text x="200" y="150"
+style="font-family:courier; font-size:40px; font-weight:bold; fill:white;" opacity="0">
+    Das waren...
+    <animate attributeName="opacity" from="0" to="1" dur="1" begin="52" fill="freeze"/>
+</text>
+<text x="500" y="300"
+style="font-family:courier; font-size:60px; font-weight:bold; fill:white;" opacity="0">
+    2097 Zeilen
+    <animate attributeName="opacity" from="0" to="1" dur="1" begin="53" fill="freeze"/>
+</text>
+<text x="500" y="400"
+style="font-family:courier; font-size:60px; font-weight:bold; fill:white;" opacity="0">
+    10.726 Wörter
+    <animate attributeName="opacity" from="0" to="1" dur="1" begin="54" fill="freeze"/>
+</text>
+<text x="500" y="500"
+style="font-family:courier; font-size:60px; font-weight:bold; fill:white;" opacity="0">
+    124.362 Zeichen
+    <animate attributeName="opacity" from="0" to="1" dur="1" begin="55" fill="freeze"/>
+</text>
+<text x="500" y="600"
+style="font-family:courier; font-size:60px; font-weight:bold; fill:white;" opacity="0">
+    und endlose Stunden Arbeit
+    <animate attributeName="opacity" from="0" to="1" dur="1" begin="56" fill="freeze"/>
+</text>
+</svg>
