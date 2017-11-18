@@ -1,18 +1,20 @@
+{% load staticfiles %}
 <html>
   <head>
-      <title>Blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <title>Blog</title>
   </head>
     <body>
     <p> <b><u>My Blog</u></b>
     </p>
-    <!--
-    <ul>
-    <li><a href="http://ansatsukyoshitsu.wikia.com/wiki/Karma_Akabane">Karma Akabane</a></li>
-    <li><a href="http://de.naruto.wikia.com/wiki/Sasori">Sasori Akasuna</a></li></ul> -->
+
     {% for post in posts %}
     <div>
-      <p>published:{{post.published_date}}</p>
-      <p>author:{{post.author}}</p>
+      <p>published:{{post.published_date}}
+      author:{{post.author}}</p>
       <h1><a href=""> {{post.title}}</a></h1>
       <p>{{ post.text|linebreaksbr }}</p>
     </div>
