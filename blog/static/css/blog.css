@@ -1,5 +1,7 @@
-title {
+#title {
   color: #006400;
+  font-size: 60px;
+  font-family: 'Indie Flower';
 }
 h1 a {
   color: #4B0082;
